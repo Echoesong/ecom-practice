@@ -1,19 +1,8 @@
-import React from 'react';
-import Hello from './components/hello';
+import React from "react";
+import Main from "./components/Main";
 
 function App() {
-  return (
-    // Components:
-    // Header
-      // Navbar
-      // Hero
-    // Main
-    // Footer
-    <>
-      <Hello/>
-      <Hello/>
-    </>
-  );
+  return <Main />;
 }
 
 export default App;
