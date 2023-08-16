@@ -1,10 +1,18 @@
 import React from 'react';
+import Hello from './components/hello';
 
 function App() {
   return (
-    <div>
-      Hello World
-    </div>
+    // Components:
+    // Header
+      // Navbar
+      // Hero
+    // Main
+    // Footer
+    <>
+      <Hello/>
+      <Hello/>
+    </>
   );
 }
 
