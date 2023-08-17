@@ -3,12 +3,15 @@
 // Home button
 // Open Cart Button
 
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Menu from "../Menu";
 
 export default function Navbar(props) {
   return (
-    <nav>
+    <nav className="flex-row">
+      <div>
+        <Menu />
+      </div>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
     </nav>
