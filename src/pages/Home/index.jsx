@@ -1,20 +1,15 @@
 import { Button } from "@mui/material";
-
-function MyComponent() {
-  return (
-    <Button variant="contained" color="primary">
-      Click me
-    </Button>
-  );
-}
+import React from "react";
+import Carousel from "react-material-ui-carousel";
+import Card from "@mui/material/Card";
+import BootCard from "../../components/BootCard"
 
 
 export default function Home(){
     return(
         <>
             <div>This is the Home page</div>
-            <MyComponent/>
-            <MyComponent/>
+            <BootCard/>
 
             
         </>
